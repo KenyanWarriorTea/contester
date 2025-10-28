@@ -34,3 +34,4 @@ int main() {
     cout << (func() == 1 ? "YES" : "NO");
     return 0;
 }
+
