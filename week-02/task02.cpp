@@ -10,10 +10,10 @@ int main() {
         double input;
         cin >> input;
 
-        if (input == 0) break;        // остановка при нуле
-        if (input < 0) continue;      // пропуск отрицательных чисел
+        if (input == 0) break;        
+        if (input < 0) continue;      
 
-        roots[count++] = sqrt(input); // вычисляем корень и сохраняем
+        roots[count++] = sqrt(input); 
     }
 
     cout << count << endl;
