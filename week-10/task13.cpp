@@ -28,3 +28,4 @@ int main() {
     cout << total_days << endl;
     return 0;
 }
+
