@@ -8,10 +8,9 @@ int main() {
     int n;
 
     cin >> n;
-    int arr[100];  // фиксированный размер вместо VLA для надёжности
+    int arr[100];  
     int count = 0;
 
-    // ввод с проверкой диапазона
     while (count < n) {
         int val;
         cin >> val;
@@ -19,7 +18,6 @@ int main() {
         arr[count++] = val;
     }
 
-    // сортировка по убыванию
     for (int i = 0; i < count - 1; i++) {
         for (int j = i + 1; j < count; j++) {
             if (arr[j] > arr[i]) swap(arr[i], arr[j]);
